@@ -1,0 +1,23 @@
+
+#project-name{
+    float: left;
+    padding-left: 4px;
+}
+#form-inline{
+   float: right;
+   
+}
+
+#wall-div{
+    border: 1px solid;
+}
+#friend-div{
+    float: right;
+    border: 1px solid;
+}
+.panel-heading{
+    background-color: #ba3939;
+}
+.pull-right{
+    float: right;
+}
