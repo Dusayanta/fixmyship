@@ -1,4 +1,4 @@
-
+/*CSS for the NAVBAR Starts from here*/
 .navbar-icon-top .navbar-nav .nav-link > .fa {
   position: relative;
   width: 36px;
@@ -48,11 +48,10 @@
 
 @media (min-width: 768px) {
   .input-custom-size{
-    width: 65%;
+    width: 60%;
   }
   .nav-text-link{
-    padding: 8px;
-    margin: 0px 4px 0px 4px;
+    padding: 0.7em;
   }
   .nav-text-link:hover{
     border-radius: 5px;
@@ -136,3 +135,62 @@ nav{
 .nav-text-link{
   font-size: 1.4em;
 }
+/*CSS for the NAVBAR Ends here*/
+
+/*CSS for Password reset page password.html Starts here*/
+.div #mail{
+  text-align:center;
+  padding: 10px;
+  display:inline-block;
+  margin:none;
+  
+
+}
+.div #button{
+  background-color:green;
+  color:white;
+  width:100px;
+  height: 30px;
+  margin:none;
+}
+#reset-password-form{
+  border:2px solid;
+  width:25%;
+  margin: auto;
+  padding:10px;
+  background-color:cyan;
+}
+/*CSS for Password reset page password.html ends here*/
+
+/*CSS for About Us page About_Us.html starts from here*/
+.search{
+  width: 500px;
+  height: 30px;
+  margin-right: 25px;
+  margin-left:25px;
+  border-radius: 8px;
+}
+.sign_in,.ask{
+  height: 30px;
+  border-radius: 8px;
+  color:red;
+
+}
+.outer{
+  margin-left: 370px;
+  margin-right:370px ;
+  
+}
+ul,header{
+  
+  background-color: darkgray;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+li{
+  display:inline-block;
+  float:none;
+  margin-right: 15px;
+}
+
+/*CSS for About Us page About_Us.html ends here*/
