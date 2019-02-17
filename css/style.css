@@ -1,23 +1,23 @@
 /*CSS for the NAVBAR Starts from here*/
-.navbar-icon-top .navbar-nav .nav-link > .fa {
+.navbar-icon-top .navbar-nav .nav-link>.fa {
   position: relative;
   width: 36px;
   font-size: 24px;
 }
 
-.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+.navbar-icon-top .navbar-nav .nav-link>.fa>.badge {
   font-size: 0.75rem;
   position: absolute;
   right: 0;
   font-family: sans-serif;
 }
 
-.navbar-icon-top .navbar-nav .nav-link > .fa {
+.navbar-icon-top .navbar-nav .nav-link>.fa {
   top: 3px;
   line-height: 12px;
 }
 
-.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+.navbar-icon-top .navbar-nav .nav-link>.fa>.badge {
   top: -10px;
 }
 
@@ -30,10 +30,12 @@
     padding-top: 0;
     padding-bottom: 0;
   }
-  .input-custom-size{
+
+  .input-custom-size {
     width: 100%;
   }
-  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa {
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa {
     display: block;
     width: 48px;
     margin: 2px auto 4px auto;
@@ -41,24 +43,27 @@
     line-height: 24px;
   }
 
-  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa > .badge {
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa>.badge {
     top: -7px;
   }
 }
 
 @media (min-width: 768px) {
-  .input-custom-size{
+  .input-custom-size {
     width: 60%;
   }
-  .nav-text-link{
+
+  .nav-text-link {
     padding: 0.7em;
   }
-  .nav-text-link:hover{
+
+  .nav-text-link:hover {
     border-radius: 5px;
     border: 1px solid #ba3939;
     background-color: white;
     color: #ba3939;
   }
+
   .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
     text-align: center;
     display: table-cell;
@@ -68,7 +73,7 @@
     padding-bottom: 0;
   }
 
-  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link>.fa {
     display: block;
     width: 48px;
     margin: 2px auto 4px auto;
@@ -76,7 +81,7 @@
     line-height: 24px;
   }
 
-  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link>.fa>.badge {
     top: -7px;
   }
 }
@@ -91,7 +96,7 @@
     padding-bottom: 0;
   }
 
-  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link>.fa {
     display: block;
     width: 48px;
     margin: 2px auto 4px auto;
@@ -99,7 +104,7 @@
     line-height: 24px;
   }
 
-  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link>.fa>.badge {
     top: -7px;
   }
 }
@@ -114,7 +119,7 @@
     padding-bottom: 0;
   }
 
-  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa {
     display: block;
     width: 48px;
     margin: 2px auto 4px auto;
@@ -122,75 +127,79 @@
     line-height: 24px;
   }
 
-  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa>.badge {
     top: -7px;
   }
 }
-nav{
-    background-color: #ba3939;
+
+nav {
+  background-color: #ba3939;
 }
-.nav-text-brand{
+
+.nav-text-brand {
   font-size: 1.9em;
 }
-.nav-text-link{
+
+.nav-text-link {
   font-size: 1.4em;
 }
+
 /*CSS for the NAVBAR Ends here*/
 
 /*CSS for Password reset page password.html Starts here*/
-.div #mail{
-  text-align:center;
+.div #mail {
+  text-align: center;
   padding: 10px;
-  display:inline-block;
-  margin:none;
-  
+  display: inline-block;
+  margin: none;
+
 
 }
-.div #button{
-  background-color:green;
-  color:white;
-  width:100px;
+
+.div #button {
+  background-color: green;
+  color: white;
+  width: 100px;
   height: 30px;
-  margin:none;
+  margin: none;
 }
-#reset-password-form{
-  border:2px solid;
-  width:25%;
+
+#reset-password-form {
+  border: 2px solid;
+  width: 25%;
   margin: auto;
-  padding:10px;
-  background-color:cyan;
+  padding: 10px;
+  background-color: cyan;
 }
+
 /*CSS for Password reset page password.html ends here*/
 
-/*CSS for About Us page About_Us.html starts from here*/
-.search{
-  width: 500px;
-  height: 30px;
-  margin-right: 25px;
-  margin-left:25px;
-  border-radius: 8px;
-}
-.sign_in,.ask{
-  height: 30px;
-  border-radius: 8px;
-  color:red;
-
-}
-.outer{
-  margin-left: 370px;
-  margin-right:370px ;
-  
-}
-ul,header{
-  
-  background-color: darkgray;
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-li{
-  display:inline-block;
-  float:none;
-  margin-right: 15px;
+/*CSS for after login page index.html starts from here*/
+#project-name {
+  float: left;
+  padding-left: 4px;
 }
 
-/*CSS for About Us page About_Us.html ends here*/
+#form-inline {
+  float: right;
+
+}
+
+#wall-div {
+  border: 1px solid;
+}
+
+#friend-div {
+  float: right;
+  border: 1px solid;
+}
+
+.panel-heading {
+  background-color: #ba3939;
+}
+
+.pull-right {
+  float: right;
+}
+
+/*CSS for after login page index.html ends here*/
