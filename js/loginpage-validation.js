@@ -1,5 +1,6 @@
 $(document).ready(()=>
 {
+    console.log('running')
     $.validator.addMethod('customEmailValidator',(value,element)=>{
         let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
         let isValid = regex.test(value);

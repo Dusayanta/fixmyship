@@ -1,53 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-       <title>
-            Login
-        </title>
-        <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>
+    Login
+  </title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-<script type='text/javascript' src='jquery3.js'></script>
-<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js'></script>
-<script type="text/JavaScript" src="loginpage-validation.js"></script>
 </head>
-    <body >
-            <h1 class="col-4 offset-6" style="font-style:italic; color:#ba3939; padding:10px"> Login</h1><br>
 
-               <div class='col-4 col offset-4'id='form'>
-               <form id="login-form" class='form-group col-10 offset-3'style="border:2px solid #ba3939;padding:10px">
-              
-               <label for='email'>Email</label>
-               <input type='email' class='form-control' id='email' name='email'/><br>
-               
-               <label for='pass' >Password</label>
-               <input type='password' class='form-control' id='password' name='password'/><br>
-               
-               <input type="submit" class='btn btn-primary 'value='Login'id='login'/>
-               </div>
-               </form>     
-               
-               </div>
+<body>
+  <div>
+    <nav class="navbar navbar-icon-top navbar-expand-lg sticky-top">
+      <a class="navbar-brand nav-text-brand" href="#">Fix My 'Ship</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-align-justify"></span>
+      </button>
 
-    </body>
-    </html>
-    <style>
-    h1{
-        font-style: italic;
-        color:crimson;
-    }
-    </style>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              <span class="active-link">Login</span>
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="nav-text-link">Sign Up</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="nav-text-link">Help</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="nav-text-link">About Us</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 mt-5 pt-5">
+        <div class="card shadow-lg rounded">
+          <div class="card-header text-center bg-danger text-white">
+            <h1>Login</h1>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-7 border-right border-danger">
+                <form id="login-form">
+                  <div class="form-group">
+                    <label for='email'>Username</label>
+                    <input type='email' class='form-control form-control-lg' id='email' name='email' placeholder="Enter username or email"
+                      required>
+                  </div>
+                  <div class="form-group">
+                    <label for='pass'>Password</label>
+                    <input type='password' class='form-control form-control-lg' id='password' name='password'
+                      placeholder="Enter Password" pattern=".{8,}" title="Min 8 characters" required>
+                  </div>
+                  <div class="col-md-6 offset-md-3">
+                    <input type="submit" class='btn btn-outline-primary btn-lg btn-block shadow-sm' value='Login' id='login' />
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-5">
+                <div>
+                  <div class="mt-5 pt-4">
+                    <button class="btn btn-danger btn-block p-2 shadow"><span class="fa fa-google border-right pr-2"></span>
+                      <span>Login
+                        with Google</span></button>
+                  </div>
+                  <div class="pt-2">
+                    <button class="btn btn-primary btn-block p-2 shadow"><span class="fa fa-facebook border-right pr-2"></span>
+                      <span>Login with Facebook</span></button>
+                  </div>
+                  <div class="mt-5 h5">
+                    <a href="" class="underline float-right">Continue SignUp with email</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+</body>
+
+</html>

@@ -53,11 +53,11 @@
     width: 60%;
   }
 
-  .nav-text-link {
+  .nav-text-link,.active-link {
     padding: 0.7em;
   }
 
-  .nav-text-link:hover {
+  .nav-text-link:hover,.active-link {
     border-radius: 5px;
     border: 1px solid #ba3939;
     background-color: white;
@@ -140,7 +140,7 @@ nav {
   font-size: 1.9em;
 }
 
-.nav-text-link {
+.nav-text-link,.active-link {
   font-size: 1.4em;
 }
 
